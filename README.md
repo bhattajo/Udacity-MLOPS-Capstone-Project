@@ -162,6 +162,9 @@ RunDetail from Azure ML Studio Experiment tab:
 
 ![image](https://user-images.githubusercontent.com/19474037/148433764-451a1fb6-de44-42a8-99e2-bff11fa3ecb2.png)
 
+***Best Model***
+
+![image](https://user-images.githubusercontent.com/19474037/148434051-ecc0eca9-af73-448c-a18b-0f2a7e1c9083.png)
 
 
 
