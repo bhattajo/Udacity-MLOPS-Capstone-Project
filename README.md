@@ -143,9 +143,20 @@ Azure ML studio Endpoints tab showing the published model:
 
 Hyperparameter tuning is choosing a set of optimal hyperparameters for a Machine learning algorithm. All Machine learning libraries (scikit learn) allows attributes to be set before the learning process begins. An optimal set of these attribute values gives high accuracy and the model performs better. Due to large number of these attributes and combinatorial explosion Hyperparameter can be a costly and long run. There are techniques like Random/Grid and Bayesian sampling to optimize the run. Its a delicate dance between Big O and hyperparameter optimization. If given infinite compute and time, a continuous search space can be used to gurantee the best optimal values.
 
+***Hyperdrive Configuration***
+
 In this project (hyperparameter_tuning.jpynb) i used Bandit Policy for early termination and two hyper parameters supported by scikitlearn logistic regression model. These are regularization and max iter. Regularization like Ridge adds a penalty term with a facor to prevent model from overfiting. Max iter controls how many steps the algorithm will take in the gradient descent before giving up. This helps prevent Gradient Decent divergence as shown below:
 
 ![image](https://user-images.githubusercontent.com/19474037/148430631-620b5aa5-995d-4305-ac42-3c19d0fb196d.png)
+
+Code showing HyperDrive configuration like "--C" for regularization and "--max_iter" for maximum iteration:
+
+![image](https://user-images.githubusercontent.com/19474037/148431001-219699bf-f24f-4ff2-8793-47ce435a8778.png)
+
+
+
+
+
 
 
 ***Related Efforts:***
