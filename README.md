@@ -73,7 +73,22 @@ AutoAMLConfig shown below with all the settings including primary metric as AUC_
 ![image](https://user-images.githubusercontent.com/19474037/148329446-bcc3e968-b608-4018-86f6-96876be299ad.png)
 
 The RunDetails are shown below for the AutoML Run:
-![image](https://user-images.githubusercontent.com/19474037/148329828-a6176b10-053e-4a4d-b514-34b4d6741155.png)
+![image](https://user-images.githubusercontent.com/19474037/148331107-83ac1eac-6a24-42a2-bdc6-0c2290200169.png)
+
+### Experiment Details from Azure ML Studio
+
+![image](https://user-images.githubusercontent.com/19474037/148331372-eb18b07b-83ce-4d7e-9f90-8ec0afddd60d.png)
+
+### Best Model is VotingEnsemble with a surpringly high accuracy 💌.
+
+![image](https://user-images.githubusercontent.com/19474037/148331554-71e061af-3d9a-476c-9cfe-be987f493227.png)
+![image](https://user-images.githubusercontent.com/19474037/148332363-ad3ee42f-1a76-47ce-9453-97cdb7e893a7.png)
+![image](https://user-images.githubusercontent.com/19474037/148332417-3deba64b-3a90-4196-bb0d-26d946cea6b4.png)
+
+
+
+
+### Explanation
 
 
 
