@@ -115,6 +115,8 @@ The Metrics tab in AzureML studio gives ability to view various metrics using ch
 The Metrics tab in AzureML studio gives ability to see model explaniability (XAI). Information like feature importance bar chart is shown below. This can be used to clean the dataset and apply feature engineering to improve the model performance.
 
 ![image](https://user-images.githubusercontent.com/19474037/148332860-ba2eb798-3b84-4b96-91be-721790ede918.png)
+![image](https://user-images.githubusercontent.com/19474037/148417948-08543179-0f6d-4adb-ad4d-9fcc96c5f305.png)
+
 
 
 ## Example Readmes
