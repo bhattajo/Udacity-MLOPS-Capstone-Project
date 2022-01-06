@@ -74,7 +74,9 @@ Image:2 Shown below explains the overall architecture on how to use SDK to trigg
 
 ## AutoML Notebook
 
-AutoML uses Bayesian optimization to identify better hyper-parameters than human experts. It also uses collaborative filtering (Probabilistic Matrix Factorization) to search for the most promising data transformation pipelines efficiently (Luca Zavarella, 2020). Matrix factorization is a technique used where awe have combinatorial explosion. It uses features to decompse a big combination set into smaller factor set. Think of it like how  factor a big number for ex. 12 into factors of 2 small numbers (3X4 and 6X2)
+AutoML uses Bayesian optimization to identify better hyper-parameters than human experts. It also uses collaborative filtering (Probabilistic Matrix Factorization) to search for the most promising data transformation pipelines efficiently (Luca Zavarella, 2020). 
+
+Matrix factorization is a technique used where awe have combinatorial explosion. It uses features to decompse a big combination set into smaller factor set. Think of it like how  factor a big number for ex. 12 into factors of 2 small numbers (3X4 and 6X2)
 
 For AutoML experiment. We first create workspace from config (ws = Workspace.from_config()) and create a Panda Dataframe using the Tabular Dataset.
 
@@ -104,13 +106,15 @@ In the model section, we can see all the runs and the best model at the top. The
 
 ### Metrics
 
+The Metrics tab in AzureML studio gives ability to view various metrics using chart or a table. It provides ability to also see various additional metrics like confusion matrix and Recall. 
+
 ![image](https://user-images.githubusercontent.com/19474037/148332794-3d9ddafb-e215-4073-ae16-f5c296071f2e.png)
 
 ### Explanation
 
+The Metrics tab in AzureML studio gives ability to see model explaniability (XAI). Information like feature importance bar chart is shown below. This can be used to clean the dataset and apply feature engineering to improve the model performance.
+
 ![image](https://user-images.githubusercontent.com/19474037/148332860-ba2eb798-3b84-4b96-91be-721790ede918.png)
-
-
 
 
 ## Example Readmes
