@@ -89,7 +89,7 @@ AutoAMLConfig shown below with all the settings including primary metric as AUC_
 The RunDetails are shown below for the AutoML Run.
 ![image](https://user-images.githubusercontent.com/19474037/148331107-83ac1eac-6a24-42a2-bdc6-0c2290200169.png)
 
-### Experiment Details from Azure ML Studio
+***Experiment Details from Azure ML Studio***
 
 We can login to Azure ML studio and see the experiment run in more detail. It shows the duration of the run, recall score (weighted) etc.
 
