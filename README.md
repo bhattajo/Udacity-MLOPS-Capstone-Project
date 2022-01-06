@@ -50,14 +50,16 @@ This project uses [Bank_Personal_Loan](https://raw.githubusercontent.com/bhattaj
 
 ## Architecture
 
-Image:1 Shown below how an AutoML run can be triggered by feeding the three main components i.e Dataset, Optimization Metrics and Constraints. In detail section below, the code snipped is shared for your perusal.
+Image:1&2 Shown below how an AutoML run can be triggered by feeding the three main components i.e Dataset, Optimization Metrics and Constraints. In detail section below, the code snipped is shared for your perusal.
 
 Image:2 Shown below explains the overall architecture on how to use SDK to trigger an experiment (Both AutoML and HyperDrive with cutom code) in Azure ML studio, pick the best model for deployment (on Azure Container Instance), generate application insight/Swagger documentation and consumption using REST call.
 
 ![image](https://user-images.githubusercontent.com/19474037/148326105-73f80f5c-c110-4b07-8fd9-28183d3307b3.png)
-                                                Image:1
+<p align="center">Image:1</p>
+![image](https://user-images.githubusercontent.com/19474037/148414152-188e2821-1a38-4d3a-b55e-711875606cf7.png)
+<p align="center">Image:2 (- Azure AutoML workflow taken from the official infographic)</p> 
 ![image](https://user-images.githubusercontent.com/19474037/148328370-fd91a462-9a6c-48de-a2e7-be3bf184f90a.png)
-                                                Image:2
+<p align="center">Image:3</p>
 
 
 ## Setup
@@ -69,6 +71,8 @@ Image:2 Shown below explains the overall architecture on how to use SDK to trigg
 2. Setup local notebbok environment with Azure ML sdk downloaded using pip.
 
 ## AutoML Notebook
+
+AutoML uses Bayesian optimization to identify better hyper-parameters than human experts. It also uses collaborative filtering (Probabilistic Matrix Factorization) to search for the most promising data transformation pipelines efficiently (Luca Zavarella, 2020). Matrix factorization is a technique used where awe have combinatorial explosion. It uses features to decompse a big combination set into smaller factor set. Think of it like how  factor a big number for ex. 12 into factors of 2 small numbers (3X4 and 6X2)
 
 For AutoML experiment. We first create workspace from config (ws = Workspace.from_config()) and create a Panda Dataframe using the Tabular Dataset.
 
@@ -89,7 +93,7 @@ We can login to Azure ML studio and see the experiment run in more detail. It sh
 
 ### Best Model is VotingEnsemble with a surpringly high accuracy 💌.
 
-In the model section, we can see all the runs and the best model at the top.
+In the model section, we can see all the runs and the best model at the top. The voting classifier works like an electoral system in which a prediction on a new data point is made based on a voting system of the members of a group of machine learning models (Samson Afolabi, 2020).
 
 ![image](https://user-images.githubusercontent.com/19474037/148331554-71e061af-3d9a-476c-9cfe-be987f493227.png)
 ![image](https://user-images.githubusercontent.com/19474037/148332363-ad3ee42f-1a76-47ce-9453-97cdb7e893a7.png)
