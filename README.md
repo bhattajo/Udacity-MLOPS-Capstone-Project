@@ -56,8 +56,10 @@ Image:2 Shown below explains the overall architecture on how to use SDK to trigg
 
 ![image](https://user-images.githubusercontent.com/19474037/148326105-73f80f5c-c110-4b07-8fd9-28183d3307b3.png)
 <p align="center">Image:1</p>
+
 ![image](https://user-images.githubusercontent.com/19474037/148414152-188e2821-1a38-4d3a-b55e-711875606cf7.png)
-<p align="center">Image:2 (- Azure AutoML workflow taken from the official infographic)</p> 
+<p align="center">Image:2 (- Azure AutoML workflow taken from the official infographic)</p>
+
 ![image](https://user-images.githubusercontent.com/19474037/148328370-fd91a462-9a6c-48de-a2e7-be3bf184f90a.png)
 <p align="center">Image:3</p>
 
