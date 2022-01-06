@@ -153,6 +153,17 @@ Code showing HyperDrive configuration like "--C" for regularization and "--max_i
 
 ![image](https://user-images.githubusercontent.com/19474037/148431001-219699bf-f24f-4ff2-8793-47ce435a8778.png)
 
+The ScriptRunConfig class is set with train.py as script. The python script train.py contains code for feature engineering (like scaling and one hot encoding) , splitting the dataset into train/test set and running the Logistic Regression using scikitlearn package. The hyperDrive config passes RandomParameter sampling data ("--C" and "--max_iter") and creates run for each of these as child models. RunDetail widget of Hyperdrive run inside notebbok is shown below:
+
+![image](https://user-images.githubusercontent.com/19474037/148432715-6daf95d3-c366-4663-acc9-aaa1cf653e9a.png)
+![image](https://user-images.githubusercontent.com/19474037/148432837-6b1034c5-ba20-422a-9ed4-7315bb36f354.png)
+
+
+
+RunDetail from Azure ML Studio Experiment tab:
+
+![image](https://user-images.githubusercontent.com/19474037/148432441-ec98b3d8-ce4c-48f4-9b24-5873ee8e5580.png)
+
 
 
 
