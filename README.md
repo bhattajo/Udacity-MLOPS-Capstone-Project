@@ -86,9 +86,14 @@ The RunDetails are shown below for the AutoML Run:
 ![image](https://user-images.githubusercontent.com/19474037/148332417-3deba64b-3a90-4196-bb0d-26d946cea6b4.png)
 
 
+### Metrics
 
+![image](https://user-images.githubusercontent.com/19474037/148332794-3d9ddafb-e215-4073-ae16-f5c296071f2e.png)
 
 ### Explanation
+
+![image](https://user-images.githubusercontent.com/19474037/148332860-ba2eb798-3b84-4b96-91be-721790ede918.png)
+
 
 
 
