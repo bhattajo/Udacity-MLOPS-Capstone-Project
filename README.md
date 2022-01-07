@@ -195,7 +195,8 @@ Model Registered in Azure ML:
 
 ## Screencast
 
-Screencast coming soon ....
+[This video contains a screencast demonstrating all of the steps](https://www.youtube.com/watch?v=nrMCOUXV3_s)
+
 
 ## Maintainers
 
