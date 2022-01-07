@@ -145,7 +145,7 @@ Azure ML studio Endpoints tab showing the published model:
 
 Hyperparameter tuning is choosing a set of optimal hyperparameters for a Machine learning algorithm. All Machine learning libraries (scikit learn) allows attributes to be set before the learning process begins. An optimal set of these attribute values gives high accuracy and the model performs better. Due to large number of these attributes and combinatorial explosion Hyperparameter can be a costly and long run. There are techniques like Random/Grid and Bayesian sampling to optimize the run. Its a delicate dance between Big O and hyperparameter optimization. If given infinite compute and time, a continuous search space can be used to gurantee the best optimal values.
 
-***Hyperdrive Configuration***
+***Hyperdrive Configuration:***
 
 In this project (hyperparameter_tuning.jpynb) i used Bandit Policy for early termination and two hyper parameters supported by scikitlearn logistic regression model. These are regularization and max iter. Regularization like Ridge adds a penalty term with a facor to prevent model from overfiting. Max iter controls how many steps the algorithm will take in the gradient descent before giving up. This helps prevent Gradient Decent divergence as shown below:
 
@@ -164,7 +164,7 @@ RunDetail from Azure ML Studio Experiment tab:
 
 ![image](https://user-images.githubusercontent.com/19474037/148433764-451a1fb6-de44-42a8-99e2-bff11fa3ecb2.png)
 
-***Best Model***
+***Best Model:***
 
 ![image](https://user-images.githubusercontent.com/19474037/148434051-ecc0eca9-af73-448c-a18b-0f2a7e1c9083.png)
 
@@ -172,7 +172,7 @@ Azure ML studio Experiment tab data:
 
 ![image](https://user-images.githubusercontent.com/19474037/148434678-cfdd4d0b-edcf-4aa0-8740-82b0dd4e7ece.png)
 
-***Saving and Registering and the best Model***
+***Saving and Registering and the best Model:***
 ![image](https://user-images.githubusercontent.com/19474037/148435200-3c674274-b8e9-45b5-b36b-dcff23f1fcf0.png)
 
 Model saved locally in Azure ML studio worspace:
@@ -185,11 +185,11 @@ Model Registered in Azure ML:
 
 ## Model Consumption
 
-***Consumption from the notebook code***
+***Consumption from the notebook code:***
 ![image](https://user-images.githubusercontent.com/19474037/148436941-fad69e42-842a-45ee-9f14-077315704c23.png)
 
 
-***Consumption from python script endpoint.py***
+***Consumption from python script endpoint.py:***
 
 ![image](https://user-images.githubusercontent.com/19474037/148437568-8cc024ba-08ba-414c-ac5a-39e4734fdd7b.png)
 
