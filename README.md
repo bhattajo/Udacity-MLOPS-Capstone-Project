@@ -149,6 +149,11 @@ Hyperparameter tuning is choosing a set of optimal hyperparameters for a Machine
 
 In this project (hyperparameter_tuning.jpynb) i used Bandit Policy for early termination and two hyper parameters supported by scikitlearn logistic regression model. These are regularization and max iter. Regularization like Ridge adds a penalty term with a facor to prevent model from overfiting. Max iter controls how many steps the algorithm will take in the gradient descent before giving up. This helps prevent Gradient Decent divergence as shown below:
 
+`early_termination_policy = BanditPolicy(evaluation_interval=1, slack_factor=0.2, delay_evaluation=5)`
+`param_sampling = RandomParameterSampling({"--C": choice(0.001,0.01,0.1,1,10,20,50,100,200,500,1000), "--max_iter": choice(40,80,120,130,200)})`
+
+                                         
+
 ![image](https://user-images.githubusercontent.com/19474037/148430631-620b5aa5-995d-4305-ac42-3c19d0fb196d.png)
 
 Code showing HyperDrive configuration like "--C" for regularization and "--max_iter" for maximum iteration:
